@@ -1,30 +1,3 @@
-// const express = require('express');
-// const cors = require('cors');
-// require('dotenv').config();
-
-// const serviceRoutes = require('./routes/serviceRoutes');
-// const bookingRoutes = require('./routes/bookingRoutes');
-// const errorHandler = require('./middleware/errorHandler');
-
-// const app = express();
-
-// // Middleware
-// app.use(cors()); // Critical for Flutter connection
-// app.use(express.json());
-
-// // Public Routes
-// app.use('/api/services', serviceRoutes);
-// app.use('/api/bookings', bookingRoutes);
-
-// // Health Check
-// app.get('/', (req, res) => res.send('CommuniServe API: No-Auth Mode Active'));
-
-// // Centralized Error Handling
-// app.use(errorHandler);
-
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => console.log(`🚀 API active on port ${PORT}`));
-
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
